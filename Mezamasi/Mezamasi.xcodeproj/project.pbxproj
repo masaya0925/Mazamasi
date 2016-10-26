@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EDEE8661DC0D5E1009ACA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDEE8651DC0D5E1009ACA03 /* main.m */; };
+		2EDEE8691DC0D5E1009ACA03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDEE8681DC0D5E1009ACA03 /* AppDelegate.m */; };
+		2EDEE86C1DC0D5E1009ACA03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDEE86B1DC0D5E1009ACA03 /* ViewController.m */; };
+		2EDEE86F1DC0D5E1009ACA03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDEE86D1DC0D5E1009ACA03 /* Main.storyboard */; };
+		2EDEE8711DC0D5E1009ACA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDEE8701DC0D5E1009ACA03 /* Assets.xcassets */; };
+		2EDEE8741DC0D5E1009ACA03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDEE8721DC0D5E1009ACA03 /* LaunchScreen.storyboard */; };
+		2EDEE87F1DC0D5E1009ACA03 /* MezamasiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDEE87E1DC0D5E1009ACA03 /* MezamasiTests.m */; };
+		2EDEE88A1DC0D5E1009ACA03 /* MezamasiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDEE8891DC0D5E1009ACA03 /* MezamasiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EDEE87B1DC0D5E1009ACA03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EDEE8591DC0D5E1009ACA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDEE8601DC0D5E1009ACA03;
+			remoteInfo = Mezamasi;
+		};
+		2EDEE8861DC0D5E1009ACA03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EDEE8591DC0D5E1009ACA03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDEE8601DC0D5E1009ACA03;
+			remoteInfo = Mezamasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EDEE8611DC0D5E1009ACA03 /* Mezamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mezamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDEE8651DC0D5E1009ACA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EDEE8671DC0D5E1009ACA03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EDEE8681DC0D5E1009ACA03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EDEE86A1DC0D5E1009ACA03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EDEE86B1DC0D5E1009ACA03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EDEE86E1DC0D5E1009ACA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EDEE8701DC0D5E1009ACA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EDEE8731DC0D5E1009ACA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EDEE8751DC0D5E1009ACA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDEE87A1DC0D5E1009ACA03 /* MezamasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MezamasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDEE87E1DC0D5E1009ACA03 /* MezamasiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MezamasiTests.m; sourceTree = "<group>"; };
+		2EDEE8801DC0D5E1009ACA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDEE8851DC0D5E1009ACA03 /* MezamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MezamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDEE8891DC0D5E1009ACA03 /* MezamasiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MezamasiUITests.m; sourceTree = "<group>"; };
+		2EDEE88B1DC0D5E1009ACA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EDEE85E1DC0D5E1009ACA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDEE8771DC0D5E1009ACA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDEE8821DC0D5E1009ACA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EDEE8581DC0D5E1009ACA03 = {
+			isa = PBXGroup;
+			children = (
+				2EDEE8631DC0D5E1009ACA03 /* Mezamasi */,
+				2EDEE87D1DC0D5E1009ACA03 /* MezamasiTests */,
+				2EDEE8881DC0D5E1009ACA03 /* MezamasiUITests */,
+				2EDEE8621DC0D5E1009ACA03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EDEE8621DC0D5E1009ACA03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EDEE8611DC0D5E1009ACA03 /* Mezamasi.app */,
+				2EDEE87A1DC0D5E1009ACA03 /* MezamasiTests.xctest */,
+				2EDEE8851DC0D5E1009ACA03 /* MezamasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EDEE8631DC0D5E1009ACA03 /* Mezamasi */ = {
+			isa = PBXGroup;
+			children = (
+				2EDEE8671DC0D5E1009ACA03 /* AppDelegate.h */,
+				2EDEE8681DC0D5E1009ACA03 /* AppDelegate.m */,
+				2EDEE86A1DC0D5E1009ACA03 /* ViewController.h */,
+				2EDEE86B1DC0D5E1009ACA03 /* ViewController.m */,
+				2EDEE86D1DC0D5E1009ACA03 /* Main.storyboard */,
+				2EDEE8701DC0D5E1009ACA03 /* Assets.xcassets */,
+				2EDEE8721DC0D5E1009ACA03 /* LaunchScreen.storyboard */,
+				2EDEE8751DC0D5E1009ACA03 /* Info.plist */,
+				2EDEE8641DC0D5E1009ACA03 /* Supporting Files */,
+			);
+			path = Mezamasi;
+			sourceTree = "<group>";
+		};
+		2EDEE8641DC0D5E1009ACA03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EDEE8651DC0D5E1009ACA03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EDEE87D1DC0D5E1009ACA03 /* MezamasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EDEE87E1DC0D5E1009ACA03 /* MezamasiTests.m */,
+				2EDEE8801DC0D5E1009ACA03 /* Info.plist */,
+			);
+			path = MezamasiTests;
+			sourceTree = "<group>";
+		};
+		2EDEE8881DC0D5E1009ACA03 /* MezamasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EDEE8891DC0D5E1009ACA03 /* MezamasiUITests.m */,
+				2EDEE88B1DC0D5E1009ACA03 /* Info.plist */,
+			);
+			path = MezamasiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EDEE8601DC0D5E1009ACA03 /* Mezamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDEE88E1DC0D5E1009ACA03 /* Build configuration list for PBXNativeTarget "Mezamasi" */;
+			buildPhases = (
+				2EDEE85D1DC0D5E1009ACA03 /* Sources */,
+				2EDEE85E1DC0D5E1009ACA03 /* Frameworks */,
+				2EDEE85F1DC0D5E1009ACA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mezamasi;
+			productName = Mezamasi;
+			productReference = 2EDEE8611DC0D5E1009ACA03 /* Mezamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EDEE8791DC0D5E1009ACA03 /* MezamasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDEE8911DC0D5E1009ACA03 /* Build configuration list for PBXNativeTarget "MezamasiTests" */;
+			buildPhases = (
+				2EDEE8761DC0D5E1009ACA03 /* Sources */,
+				2EDEE8771DC0D5E1009ACA03 /* Frameworks */,
+				2EDEE8781DC0D5E1009ACA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDEE87C1DC0D5E1009ACA03 /* PBXTargetDependency */,
+			);
+			name = MezamasiTests;
+			productName = MezamasiTests;
+			productReference = 2EDEE87A1DC0D5E1009ACA03 /* MezamasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EDEE8841DC0D5E1009ACA03 /* MezamasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDEE8941DC0D5E1009ACA03 /* Build configuration list for PBXNativeTarget "MezamasiUITests" */;
+			buildPhases = (
+				2EDEE8811DC0D5E1009ACA03 /* Sources */,
+				2EDEE8821DC0D5E1009ACA03 /* Frameworks */,
+				2EDEE8831DC0D5E1009ACA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDEE8871DC0D5E1009ACA03 /* PBXTargetDependency */,
+			);
+			name = MezamasiUITests;
+			productName = MezamasiUITests;
+			productReference = 2EDEE8851DC0D5E1009ACA03 /* MezamasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EDEE8591DC0D5E1009ACA03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ma-Kun";
+				TargetAttributes = {
+					2EDEE8601DC0D5E1009ACA03 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2EDEE8791DC0D5E1009ACA03 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EDEE8601DC0D5E1009ACA03;
+					};
+					2EDEE8841DC0D5E1009ACA03 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EDEE8601DC0D5E1009ACA03;
+					};
+				};
+			};
+			buildConfigurationList = 2EDEE85C1DC0D5E1009ACA03 /* Build configuration list for PBXProject "Mezamasi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EDEE8581DC0D5E1009ACA03;
+			productRefGroup = 2EDEE8621DC0D5E1009ACA03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EDEE8601DC0D5E1009ACA03 /* Mezamasi */,
+				2EDEE8791DC0D5E1009ACA03 /* MezamasiTests */,
+				2EDEE8841DC0D5E1009ACA03 /* MezamasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EDEE85F1DC0D5E1009ACA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDEE8741DC0D5E1009ACA03 /* LaunchScreen.storyboard in Resources */,
+				2EDEE8711DC0D5E1009ACA03 /* Assets.xcassets in Resources */,
+				2EDEE86F1DC0D5E1009ACA03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDEE8781DC0D5E1009ACA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDEE8831DC0D5E1009ACA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EDEE85D1DC0D5E1009ACA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDEE86C1DC0D5E1009ACA03 /* ViewController.m in Sources */,
+				2EDEE8691DC0D5E1009ACA03 /* AppDelegate.m in Sources */,
+				2EDEE8661DC0D5E1009ACA03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDEE8761DC0D5E1009ACA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDEE87F1DC0D5E1009ACA03 /* MezamasiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDEE8811DC0D5E1009ACA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDEE88A1DC0D5E1009ACA03 /* MezamasiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EDEE87C1DC0D5E1009ACA03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EDEE8601DC0D5E1009ACA03 /* Mezamasi */;
+			targetProxy = 2EDEE87B1DC0D5E1009ACA03 /* PBXContainerItemProxy */;
+		};
+		2EDEE8871DC0D5E1009ACA03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EDEE8601DC0D5E1009ACA03 /* Mezamasi */;
+			targetProxy = 2EDEE8861DC0D5E1009ACA03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EDEE86D1DC0D5E1009ACA03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EDEE86E1DC0D5E1009ACA03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EDEE8721DC0D5E1009ACA03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EDEE8731DC0D5E1009ACA03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EDEE88C1DC0D5E1009ACA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EDEE88D1DC0D5E1009ACA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EDEE88F1DC0D5E1009ACA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mezamasi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mezamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EDEE8901DC0D5E1009ACA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mezamasi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mezamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2EDEE8921DC0D5E1009ACA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MezamasiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MezamasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mezamasi.app/Mezamasi";
+			};
+			name = Debug;
+		};
+		2EDEE8931DC0D5E1009ACA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MezamasiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MezamasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mezamasi.app/Mezamasi";
+			};
+			name = Release;
+		};
+		2EDEE8951DC0D5E1009ACA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MezamasiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MezamasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mezamasi;
+			};
+			name = Debug;
+		};
+		2EDEE8961DC0D5E1009ACA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MezamasiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MezamasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mezamasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EDEE85C1DC0D5E1009ACA03 /* Build configuration list for PBXProject "Mezamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDEE88C1DC0D5E1009ACA03 /* Debug */,
+				2EDEE88D1DC0D5E1009ACA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDEE88E1DC0D5E1009ACA03 /* Build configuration list for PBXNativeTarget "Mezamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDEE88F1DC0D5E1009ACA03 /* Debug */,
+				2EDEE8901DC0D5E1009ACA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EDEE8911DC0D5E1009ACA03 /* Build configuration list for PBXNativeTarget "MezamasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDEE8921DC0D5E1009ACA03 /* Debug */,
+				2EDEE8931DC0D5E1009ACA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EDEE8941DC0D5E1009ACA03 /* Build configuration list for PBXNativeTarget "MezamasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDEE8951DC0D5E1009ACA03 /* Debug */,
+				2EDEE8961DC0D5E1009ACA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EDEE8591DC0D5E1009ACA03 /* Project object */;
+}
