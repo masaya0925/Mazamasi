@@ -1,1 +1,3 @@
-# Mazamasi
+# Mezamasi
+
+　　　目覚ましの止め方は端末を振って止める
